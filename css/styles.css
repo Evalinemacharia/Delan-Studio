@@ -6,6 +6,9 @@
     margin: auto;
     text-align: center;
     height: 97vh;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 .About-us{
     text-align: center;
@@ -14,15 +17,29 @@
 .image{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
-    padding: 20%;
+    padding: 15%;
     text-align: center;
-}
-.WHAT{
-    text-align: center;
-    padding: 0ch;
-    background-image: url
-}
-.DES{
-    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 80px;
+    
 
 }
+.container{
+    text-align: center;
+    padding: 0cm;
+}
+.container h4{
+    text-align: left;
+}
+
+.container h6{
+    text-align: right;
+} 
+h6 image{
+    background-image: url("../assets/backgroung/design_icon.png");
+    background-size: cover;
+} 
+p{
+    align-items: center;
+}  
