@@ -8,20 +8,22 @@
     height: 97vh;
     margin-left: 100px;
     margin-right: 100px;
+    color: #fff;
 
 }
 .About-us{
     text-align: center;
-    padding: 0pt;
+    padding: 5%;
 }
 .image{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
-    padding: 15%;
+    padding: 10%;
     text-align: center;
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 80px;
+    color: #fff;
     
 
 }
@@ -42,5 +44,28 @@ h6 image{
 } 
 p{
     align-items: center;
+}
+* {
+    box-sizing: border-box;
+
+}
+.images-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.images-container {
+    margin-left: 0px;
+    margin: right 1px;
+    padding: 2px;
+    
+}
+html {
+    content: '\undefined';
+}
+
+    
+
+
 }
  

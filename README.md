@@ -4,18 +4,18 @@
 
 ## Setup/Installation Requirements
 * T o be able to contribute on this project;you can follow the quick simple steps you'll be good to go.
-*Fork the the project and copy the repository link.
-*clone the project to your computer
-*Open  the project to your computer
-*Enjoy
+* Fork the the project and copy the repository link.
+* clone the project to your computer
+* Open  the project to your computer
+* Enjoy
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+
 ## Technologies Used
-*HML
-*css
-*Boostrap
-*Javascript
+* HML
+* css
+* Boostrap
+* Javascript
 ## Dependancies
 JQuery library
 ## Support and contact details
