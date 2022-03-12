@@ -10,6 +10,7 @@
 * Enjoy
 
 ## Known Bugs
+The current version runs with unknown bugs
 
 ## Technologies Used
 * HML

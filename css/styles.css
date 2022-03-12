@@ -2,7 +2,7 @@
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20%;
+    padding: 10%;
     margin: auto;
     text-align: center;
     height: 97vh;
@@ -11,21 +11,40 @@
     color: #fff;
 
 }
+.log {
+    padding: 20%;
+}
+
 .About-us{
     text-align: center;
-    padding: 5%;
+    padding: 10%;
 }
 .image{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
-    padding: 10%;
+    padding: 15%;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
     margin-right: 80px;
     color: #fff;
     
 
+}
+.service-text {
+    text-align: center;
+    color: #fff;
+    left: 50%;
+    position: absolute;
+
+}
+.p1,.p2,.p3{
+    display:none ;
+    text-align: center;
+    padding: 20%;
+}
+.p1,.p2,.p3 {
+    cursor: pointer;
 }
 .container{
     text-align: center;
@@ -53,8 +72,10 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 66%;
+    margin-bottom: 5px;
 }
-.images-container {
+.images-container img  {
     margin-left: 0px;
     margin: right 1px;
     padding: 2px;
@@ -67,7 +88,7 @@ p{
     align-items: center;
 }
 .images-jumotron {
-    margin-right: 2;
+    margin-right: auto;
     margin-right: ;
     padding: 0em;
 }
@@ -87,4 +108,6 @@ p{
 
 
 }
+
+
  
