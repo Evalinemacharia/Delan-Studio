@@ -9,10 +9,12 @@
     margin-left: 100px;
     margin-right: 100px;
     color: #fff;
+    background-attachment: fixed;
+    
 
 }
-.log {
-    padding: 20%;
+.Landing-image {
+    padding: 25%;
 }
 
 .About-us{
@@ -29,73 +31,68 @@
     margin-right: 80px;
     color: #fff;
     
-
 }
-.service-text {
-    text-align: center;
-    color: #fff;
-    left: 50%;
+.what-we-do{
+    align-items: center;
+    
+}
+.p1 {
+    display: none;
+}
+.p2 {
+    display: none;
+}
+.p3 {
+    display: none;
+}
+.PORTFOLIO {
+    position: relative;
+}
+.A {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.D {
     position: absolute;
-
-}
-.p1,.p2,.p3{
-    display:none ;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.456);
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
-    padding: 20%;
+    margin: 5px;
 }
-.p1,.p2,.p3 {
-    cursor: pointer;
+.D{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(255, 255, 255, 0.456);
+    
 }
-.container{
-    text-align: center;
-    padding: 0cm;
-}
-.container h4{
-    text-align: left;
-}
-
-.container h6{
-    text-align: right;
+.CONTACT-US {
+    background-image: url("../assets/backgrounds/c_image.jpg");
 } 
-h6 image{
-    background-image: url("../assets/backgroung/design_icon.png");
-    background-size: cover;
-} 
-p{
-    align-items: center;
-}
-* {
-    box-sizing: border-box;
 
-}
-.images-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 66%;
-    margin-bottom: 5px;
-}
-.images-container img  {
-    margin-left: 0px;
-    margin: right 1px;
-    padding: 2px;
     
 
-}
-.images-jumotron {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.images-jumotron {
-    margin-right: auto;
-    margin-right: ;
-    padding: 0em;
-}
-.cages {
-    padding-top: 20px;
-    margin: 20px;
-}
+
+
+
+
+
+
+
+
 .row {
     width: 100%;
     display: flex;

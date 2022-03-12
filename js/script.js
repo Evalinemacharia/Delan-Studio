@@ -1,30 +1,25 @@
-$(document).ready(function(){
-    $(".design ").click(function(){
-      $(".design ").hide();
-      $(".p1").toggle();
-      $(".p1").show();
+$(document).ready(function() {
+    $(".design").click(function(){
+        $(".design").toggle();
+        $(".p1").toggle();
     });
 
-    $(".p1").click(function(){
-        $(".p1").hide(1200);
-        $(".design").toggle();
-        $(".design").show();
-      });    
-}
+    $(".development").click(function() {
+        $(".development").toggle();
+        $(".p1").toggle();
+    });
+    $(".product").click(function() {
+        $(".product").toggle();
+        $(".p1").toggle();
+    });
+    $(".D").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      })
+});
 
-)
-
-
-//$(".gHover").hover(function() {
-  //  $(this).stop().animate({
-        t0p: -50
-  //  }, 900,"easeOutBounce");
-//}, function() {
-  //  $(this).stop().animate({
-   //     top: 0
-   // }, 900, "easeOutBounce");
-//});
- 
+    
 
 
-))
