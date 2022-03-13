@@ -10,8 +10,18 @@
     margin-right: 100px;
     color: #fff;
     background-attachment: fixed;
+
     
 
+}
+.mouse-click {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10%;
+}
+.mouse-click {
+    animation :bounce 2s infinite ;
 }
 .Landing-image {
     padding: 25%;
@@ -83,12 +93,12 @@
     background: rgba(255, 255, 255, 0.456);
     
 } */
-.B {
+.A {
     display: block;
     width: 100%;
     height: auto;
 }
-.B {
+.D {
     position: absolute;
     width: 100%;
     background-color:rgba(255, 255, 255, 0.456);
