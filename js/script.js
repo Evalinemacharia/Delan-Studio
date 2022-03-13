@@ -1,15 +1,15 @@
 $(document).ready(function() {
-    $(".design1").click(function(){
-        $(".design").toggle();
-        $(".p1").toggle();
+    $(".image1, .p1").click(function(){
+        $(".p1, image1").toggle(700);
+        
     });
-    $(".development2").click(function(){
-        $(".development").toggle();
-        $(".p2").toggle();
+    $(".image2 , .p2").click(function(){
+        $(".p2, image2").toggle();
+        
       });
-    $(".product2").click(function(){
-        $(".product").toggle();
-        $(".p3").toggle();
+    $(".image3, .p3").click(function(){
+        $(".p3, .image3").toggle();
+    
     });
     $(".D").hover(function(){
         $(this).animate({opacity:'1'});
