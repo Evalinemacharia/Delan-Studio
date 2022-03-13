@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <title>Delan-Studio</title>
 </head>
 <body>
+  <div class="container">
     <div class="Landing-page">
       <img src="./assets/logo/logo.png">
         <h1>WELCOME<br>TO DELAN STUDIO</h1>
         <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
         <img src="./assets/mouse_click.png">
     </div> 
+  </div>
     <div class="About-us">
         <h1>About us</h1>
         <p>When you work with us, you are part of the team of committed colaborators. All aspects of our software development process are interacted and agile.<br> Our approach unifies design,development and product management to create exeptional products .<br>We start each project by understanding your business goals,the users needs and the product requirements.<br> Then translate them into effective and elagant solutions.</p>
@@ -29,11 +31,10 @@
           <div class="col-md-12">
             <strong><h3>WHAT WE DO</h3></strong>
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4" class="design1" >
           <div class='design'>
             <img src="./assets/services_icons/design_icon.png" alt="">
-            <p>DESIGN</p>
-          </div>
+                </div>
           <div class="p1">
          <strong><p>DESIGN</p></strong>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br>
@@ -41,11 +42,10 @@
           </div>
           
         </div>
-        <div class="col-md-4 col-lg-4" >
+        <div class="col-md-4 col-lg-4" class="development2" >
           <div class='development'>
             <img src='./assets/services_icons/dev_icon.png' alt="">
-              <p>DEVELOPMENT</p>
-          </div>
+               </div>
           <div class="p2">
             <strong><p>DEVELOPMENT</p></strong>
             <p>
@@ -55,11 +55,10 @@
           </div>
           
         </div>
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4" class="product2">
           <div class='product'>
             <img src='./assets/services_icons/product_icon.png' alt="">
-            <p>PRODUCT MANAGEMENT</p>
-          </div>
+             </div>
           <div class="p3">
             <strong><p>PRODUCT MANAGEMENT</p></strong>
             <p>
@@ -103,25 +102,56 @@
         <div class="col-md-3"> <img src="./assets/portfolio/work8.jpg" class="A" alt="image 10">
           <p class="B">Baily wonder</p>
         </div>
+   </div>
+    </div>
+   <div class="container">
+     <div class="contact">
+       <h2 class="us">CONTACT US</h2>
+       <form onsubmit="validateForm()" action="">
+         <div class="row">
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="text" class="form-control" id="name" placeholder="Name...">
+             </div>
+           </div>
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="email" class="form-control" id="email" placeholder="Email...">
+             </div>
+           </div>
+           <div class="col-md-12">
+             <div class="form-group">
+               <textarea type="text" class="form-control"  id="message"cols="30" rows="9" placeholder="Your message here..."></textarea>
+             </div>
+           </div>
+         </div>
+         <div class="button">
+           <button type="submit" class="submit">Submit</button>
+         </div>
+       </form>
+
+     </div>
    </div> 
-  <div class="CONTACT US">
-    <hi>CONTACT US</hi>
-    
+
+   <div class="footer">
+     <footer>
+      <img src="../assets/social_icons/twitter.png" alt="">
+      <img src="./assets/social_icons/pinterest.png" alt="">
+      <img src="./assets/social_icons/facebook.png" alt="">
+      <img src="./assets/social_icons/dribble.png" alt="">
+      <img src="./assets/social_icons/skype.png" alt="">
+      <img src="./assets/social_icons/stumble_upon.png">
+      <img src="./assets/social_icons/behance.png" alt="">
+      <img src="./assets/social_icons/g_plus.png"  alt="">
+      <img src="./assets/social_icons/flickr.png" alt="">
+      <br><br>
+    <p>DELAN STUDIO</p>
+    <p>2022</p>
+       </footer>
+   </div>
   
-    
-  <div class="row">
- <div class="block"><img src="./assets/social_icons/twitter.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/pinterest.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/facebook.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/dribble.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/skype.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/stumble_upon.png"></div>
-    <div class="block"><img src="./assets/social_icons/behance.png" alt=""></div>
-    <div class="block"><img src="./assets/social_icons/g_plus.png"  alt=""></div>
-    <div class="block"><img src="./assets/social_icons/flickr.png" alt=""></div>
-  </div>
-  <div class="row"></div>
-  <p>DELAN STUDIO</p>2022<br>
+  
+ 
 </div>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="./js/script.js"></script>
